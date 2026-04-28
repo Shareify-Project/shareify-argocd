@@ -13,6 +13,8 @@ spec:
       values: |
         grafana:
           adminPassword: admin
+          service:
+            type: NodePort
           ingress:
             enabled: false
         prometheus:
